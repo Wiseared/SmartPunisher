@@ -1,0 +1,210 @@
+PUNISH_MENU:
+  TITLE: '&7Punishing %player%'
+  SIZE: 3
+  ITEMS:
+    IPBAN:
+      MATERIAL: 'WOOL'
+      DATA: 15
+      DISPLAYNAME: '&4&lIP Ban'
+      SLOT: 10
+      LORE:
+        - '&7&m-------------------------------'
+        - '&8• &fKlik om het IP ban menu te openen'
+        - '&7&m-------------------------------'
+    BAN:
+      MATERIAL: 'WOOL'
+      DATA: 14
+      DISPLAYNAME: '&c&lBan'
+      SLOT: 12
+      LORE:
+        - '&7&m-------------------------------'
+        - '&8• &fKlik om het ban menu te openen'
+        - '&7&m-------------------------------'
+    MUTE:
+      MATERIAL: 'WOOL'
+      DATA: 3
+      DISPLAYNAME: '&b&lMute'
+      SLOT: 14
+      LORE:
+        - '&7&m-------------------------------'
+        - '&8• &fKlik om het mute menu te openen'
+        - '&7&m-------------------------------'
+    KICK:
+      MATERIAL: 'WOOL'
+      DATA: 4
+      DISPLAYNAME: '&e&lKick'
+      SLOT: 16
+      LORE:
+        - '&7&m-------------------------------'
+        - '&8• &fKlik om het kick menu te openen'
+        - '&7&m-------------------------------'
+
+BAN_MENU:
+  TITLE: '&7Punishing %player%'
+  SIZE: 6
+  ITEMS:
+    TEST:
+      DEFAULT:
+        MATERIAL: 'DIAMOND_SWORD'
+        DATA: 0
+        DISPLAYNAME: '&c&lTest'
+        REASON: 'Test'
+        COMMAND: 'ban %player% 30d Test -s'
+        SLOT: 3
+        LORE:
+          - '&7&m-------------------------------'
+          - '&8• &fKlik om &c%player% &fte punishen voor &c%reason%'
+          - '&7&m-------------------------------'
+      OFFENCES:
+        2:
+          MATERIAL: 'DIAMOND_SWORD'
+          DATA: 0
+          DISPLAYNAME: '&c&lTest'
+          REASON: 'Test'
+          COMMAND: 'ban %player% 60d Test 2nd Offence -s'
+          LORE:
+            - '&7&m-------------------------------'
+            - '&8• &fKlik om &c%player% &fte punishen voor &c%reason%'
+            - ' '
+            - '&f%player%''s zijn &c2e offence'
+            - ' '
+            - '&8» &c%command%'
+            - '&7&m-------------------------------'
+
+MUTE_MENU:
+  TITLE: '&7Punishing %player%'
+  SIZE: 6
+  ITEMS:
+    TEST:
+      DEFAULT:
+        MATERIAL: 'DIAMOND_SWORD'
+        DATA: 0
+        DISPLAYNAME: '&c&lTest'
+        REASON: 'Test'
+        COMMAND: 'mute %player% 1d Test -s'
+        SLOT: 3
+        LORE:
+          - '&7&m-------------------------------'
+          - '&8• &fKlik om &c%player% &fte punishen voor &c%reason%'
+          - '&7&m-------------------------------'
+      OFFENCES:
+        2:
+          MATERIAL: 'DIAMOND_SWORD'
+          DATA: 0
+          DISPLAYNAME: '&c&lTest'
+          REASON: 'Test'
+          COMMAND: 'mute %player% 14d Test -s'
+          LORE:
+            - '&7&m-------------------------------'
+            - '&8• &fKlik om &c%player% &fte punishen voor &c%reason%'
+            - ' '
+            - '&f%player%''s zijn &c2e offence'
+            - ' '
+            - '&8» &c%command%'
+            - '&7&m-------------------------------'
+        3:
+          MATERIAL: 'DIAMOND_SWORD'
+          DATA: 0
+          DISPLAYNAME: '&c&lTest'
+          REASON: 'Test'
+          COMMAND: 'ban %player% 1d Test -s'
+          LORE:
+            - '&7&m-------------------------------'
+            - '&8• &fKlik om &c%player% &fte punishen voor &c%reason%'
+            - ' '
+            - '&f%player%''s zijn &c3e offence'
+            - ' '
+            - '&8» &c%command%'
+            - '&7&m-------------------------------'
+
+IPBAN_MENU:
+  TITLE: '&7Punishing %player%'
+  SIZE: 6
+  ITEMS:
+    TEST:
+      DEFAULT:
+        MATERIAL: 'DIAMOND_SWORD'
+        DATA: 0
+        DISPLAYNAME: '&c&lTest'
+        REASON: 'Test'
+        COMMAND: 'ipban %player% 30d Test -s'
+        SLOT: 3
+        LORE:
+          - '&7&m-------------------------------'
+          - '&8• &fKlik om &c%player% &fte punishen voor &c%reason%'
+          - '&7&m-------------------------------'
+      OFFENCES:
+        2:
+          MATERIAL: 'DIAMOND_SWORD'
+          DATA: 0
+          DISPLAYNAME: '&c&lTest'
+          REASON: 'Test'
+          COMMAND: 'ipban %player% 60d Test -s'
+          LORE:
+            - '&7&m-------------------------------'
+            - '&8• &fKlik om &c%player% &fte punishen voor &c%reason%'
+            - ' '
+            - '&f%player%''s zijn &c2e offence'
+            - ' '
+            - '&8» &c%command%'
+            - '&7&m-------------------------------'
+        3:
+          MATERIAL: 'DIAMOND_SWORD'
+          DATA: 0
+          DISPLAYNAME: '&c&lTest'
+          REASON: 'Test'
+          COMMAND: 'ipban %player% Test -s'
+          LORE:
+            - '&7&m-------------------------------'
+            - '&8• &fKlik om &c%player% &fte punishen voor &c%reason%'
+            - ' '
+            - '&f%player%''s zijn &c3e offence'
+            - ' '
+            - '&8» &c%command%'
+            - '&7&m-------------------------------'
+
+KICK_MENU:
+  TITLE: '&7Punishing %player%'
+  SIZE: 6
+  ITEMS:
+    TEST:
+      DEFAULT:
+        MATERIAL: 'DIAMOND_SWORD'
+        DATA: 0
+        DISPLAYNAME: '&c&lTest'
+        REASON: 'Test'
+        COMMAND: 'kick %player% Test -s'
+        SLOT: 3
+        LORE:
+          - '&7&m-------------------------------'
+          - '&8• &fKlik om &c%player% &fte punishen voor &c%reason%'
+          - '&7&m-------------------------------'
+      OFFENCES:
+        2:
+          MATERIAL: 'DIAMOND_SWORD'
+          DATA: 0
+          DISPLAYNAME: '&c&lTest'
+          REASON: 'Test'
+          COMMAND: 'warn %player% Test 2nd Offence -s'
+          LORE:
+            - '&7&m-------------------------------'
+            - '&8• &fKlik om &c%player% &fte punishen voor &c%reason%'
+            - ' '
+            - '&f%player%''s zijn &c2e offence'
+            - ' '
+            - '&8» &c%command%'
+            - '&7&m-------------------------------'
+        3:
+          MATERIAL: 'DIAMOND_SWORD'
+          DATA: 0
+          DISPLAYNAME: '&c&lTest'
+          REASON: 'Test'
+          COMMAND: 'tempban %player% 1d Test 2nd Offence -s'
+          LORE:
+            - '&7&m-------------------------------'
+            - '&8• &fKlik om &c%player% &fte punishen voor &c%reason%'
+            - ' '
+            - '&f%player%''s zijn &c3e offence'
+            - ' '
+            - '&8» &c%command%'
+            - '&7&m-------------------------------'

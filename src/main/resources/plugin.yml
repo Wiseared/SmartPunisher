@@ -1,0 +1,4 @@
+name: PunishGUI
+version: '${project.version}'
+main: xyz.wiseared.smartdevelopment.smartpunisher.SmartPunisher
+author: Wiseared
