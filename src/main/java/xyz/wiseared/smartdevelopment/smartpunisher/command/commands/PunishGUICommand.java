@@ -7,7 +7,6 @@ import me.vaperion.blade.annotation.command.Description;
 import me.vaperion.blade.annotation.command.Permission;
 import org.bukkit.command.CommandSender;
 import xyz.wiseared.smartdevelopment.smartpunisher.SmartPunisher;
-import xyz.wiseared.smartdevelopment.smartpunisher.config.Config;
 import xyz.wiseared.smartdevelopment.smartpunisher.util.Message;
 
 @AllArgsConstructor
@@ -21,9 +20,7 @@ public class PunishGUICommand extends Message {
     public final void punishGUIReloadCommand(@Sender CommandSender sender) {
         plugin.saveConfig();
         plugin.reloadConfig();
-
-        Config.init();
-
+        
         sendMessage(sender, " ");
         sendMessage(sender, "&4&lPunishGUI &7» &aReloaded all configs");
         sendMessage(sender, " ");

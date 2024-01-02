@@ -3,7 +3,6 @@ package xyz.wiseared.smartdevelopment.smartpunisher;
 import lombok.Getter;
 import org.bukkit.plugin.java.JavaPlugin;
 import xyz.wiseared.smartdevelopment.smartpunisher.command.CommandManager;
-import xyz.wiseared.smartdevelopment.smartpunisher.config.Config;
 import xyz.wiseared.smartdevelopment.smartpunisher.util.CC;
 import xyz.wiseared.smartdevelopment.smartpunisher.util.menu.MenuHandler;
 
@@ -11,10 +10,6 @@ import java.io.IOException;
 
 @Getter
 public class SmartPunisher extends JavaPlugin {
-
-    public static SmartPunisher get() {
-        return getPlugin(SmartPunisher.class);
-    }
 
     @Override
     public void onEnable() {
@@ -28,7 +23,6 @@ public class SmartPunisher extends JavaPlugin {
         CC.console("&7- Version &c" + getDescription().getVersion());
 
         CC.console("&7[&4Config&7] &7loaded &cconfig.yml");
-        Config.init();
 
         try {
             registerManagers();
